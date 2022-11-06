@@ -1,0 +1,16 @@
+.App {
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.fullPageContent{
+  height: 100%;
+}
+
+.floating {
+  position: relative;
+  z-index: 1;
+}

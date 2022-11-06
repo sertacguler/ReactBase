@@ -1,0 +1,34 @@
+.contextMenu {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    background-color: darkGrey;
+    position: fixed;
+    cursor: pointer;
+    bottom: 0;
+    margin: 1em;
+    z-index: 1;
+  }
+  
+  .menu{
+    position: fixed;
+    bottom: 0;
+    margin: 2.5em 1.5em 1.5em;
+    z-index: 1;
+    display: flex;
+    flex-flow: column;}
+    
+  .menu_a{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    padding: 0.5em;
+    text-align: center;
+    transform: translateY(-2.5em);
+    transition: transform 400ms 0ms, opacity 400ms ease-out;
+    opacity: 1;
+    border-radius: 8pt;
+    text-decoration: none;
+    margin-top: 15px;
+    }
+    

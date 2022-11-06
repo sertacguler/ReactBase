@@ -1,0 +1,164 @@
+.login {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phoneNumberPage {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone{
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 25px;
+ /* width: 500px;*/
+}
+
+.phoneCodeHeader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.phoneCodeMessage {
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.phoneNumberInputDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phoneNumberInput {
+  height: 70px;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center; 
+  font-size: 35px;
+}
+
+.phoneNumberButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.phoneNumberAcceptButton {
+  border: 1px solid rgb(255, 155, 172);
+  border-radius: 50px;
+  color: #fff;
+  background-color: rgb(255, 155, 172);
+  width: 200px;
+}
+
+.create {  
+  display :flex;
+  justify-content:center;
+}
+
+.createLink {
+    color: black;
+    font-weight: 650;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.createLink:hover {
+    color:rgb(0, 183, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button {
+    background-color: rgb(0, 183, 255);
+    color: white;
+    width: 100%;
+    border: 2px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    margin-top: 10px; 
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: rgb(0, 162, 226);
+    border: 2px solid rgb(0,  162, 226);
+}
+
+.phoneInput {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.nameInput {
+    width: 100%;
+}
+
+.iBox {
+    position: relative;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .iBox {
+      width: 100%;
+    }
+  }
+
+  /* Input Text 1 */
+
+.i1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #414141;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    outline: none;
+    color: #414141;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .i1 label {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgb(116, 116, 116);
+    text-transform: uppercase;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .i1 input:valid ~ label,
+  .i1 input:focus ~ label {
+    color: #414141;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    letter-spacing: 0.2em;
+    background-color: #eee;
+  }
+  .i1 input:valid,
+  .i1 input:focus {
+    border-color: #eee;
+  }
+  
+  /* ** Input Text 1 ** */
